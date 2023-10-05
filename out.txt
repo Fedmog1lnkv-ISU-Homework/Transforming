@@ -1,0 +1,38 @@
+Figure: Rectangle (x: 4, y: 3) [width: 4.0, height: 2.0]
+Area: 8.0
+	The figure after turning clockwise, with center coordinates (x: 3, y: -3):
+		Rectangle (x: 9, y: -4) [width: 2.0, height: 4.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Rectangle (x: 4, y: 3) [width: 4.0, height: 2.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Rectangle (x: -3, y: -2) [width: 2.0, height: 4.0]
+	The figure after moving to the coordinates (x + 3, y - 3):
+		Rectangle (x: 0, y: -5) [width: 2.0, height: 4.0]
+	Figure after resizing by 10:
+		Rectangle (x: 0, y: -5) [width: 20.0, height: 40.0]
+	Area: 800.0
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Figure: Square (x: 4, y: 2) [side: 4.0]
+Area: 16.0
+	The figure after turning clockwise, with center coordinates (x: 3, y: -3):
+		Square (x: 8, y: -4) [side: 4.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Square (x: 4, y: 2) [side: 4.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Square (x: -2, y: -2) [side: 4.0]
+	The figure after moving to coordinates (x + 3, y - 3):
+		Square (x: 1, y: -5) [side: 4.0]
+	Figure after resizing by 10:
+		Square (x: 1, y: -5) [side: 40.0]
+	Area: 1600.0
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Figure: Circle: (4, 2) [radius: 4.0]
+Area: 804.24774
+	The figure after turning clockwise, with center coordinates (x: 3, y: -3):
+		Circle: (8, -4) [radius: 4.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Circle: (4, 2) [radius: 4.0]
+	The figure after turning counterclockwise, with center coordinates (x: 3, y: -3):
+		Circle: (-2, -2) [radius: 4.0]
+	The figure after moving to coordinates (x + 3, y - 3):
+		Circle: (1, -5) [radius: 4.0]
