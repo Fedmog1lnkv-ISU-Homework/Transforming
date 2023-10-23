@@ -1,6 +1,6 @@
-package Figures.Interfaces
+package figures.Interfaces
 
-import Figures.Enums.RotateDirection
+import figures.Enums.RotateDirection
 
 interface Transforming {
     fun resize(zoom: Int)

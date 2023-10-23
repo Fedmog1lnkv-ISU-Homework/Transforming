@@ -1,8 +1,8 @@
-package Figures.Classes
+package figures.classes
 
-import Figures.Enums.RotateDirection
-import Figures.Interfaces.Movable
-import Figures.Interfaces.Transforming
+import figures.Enums.RotateDirection
+import figures.Interfaces.Movable
+import figures.Interfaces.Transforming
 
 class Rect(var x: Int, var y: Int, var width: Float, var height: Float) : Movable, Transforming, Figure(0) {
 
@@ -32,9 +32,7 @@ class Rect(var x: Int, var y: Int, var width: Float, var height: Float) : Movabl
         x = centerX + deltaX
         y = centerY + deltaY
 
-        val temp = width
-        width = height
-        height = temp
+        width = height.also { height = width }
     }
 
 

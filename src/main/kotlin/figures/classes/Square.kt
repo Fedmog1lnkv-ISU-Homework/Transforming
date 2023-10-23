@@ -1,12 +1,10 @@
-package Figures.Classes
+package figures.classes
 
-import Figures.Enums.RotateDirection
-import Figures.Interfaces.Movable
-import Figures.Interfaces.Transforming
-import kotlin.math.PI
-import kotlin.math.pow
+import figures.Enums.RotateDirection
+import figures.Interfaces.Movable
+import figures.Interfaces.Transforming
 
-class Circle(var radius: Float, var x: Int, var y: Int) : Movable, Transforming, Figure(0) {
+class Square(var side: Float, var x: Int, var y: Int) : Movable, Transforming, Figure(0) {
 
     override fun move(dx: Int, dy: Int) {
         x += dx
@@ -14,11 +12,11 @@ class Circle(var radius: Float, var x: Int, var y: Int) : Movable, Transforming,
     }
 
     override fun area(): Float {
-        return PI.toFloat() * radius.pow(4);
+        return side * side
     }
 
     override fun resize(zoom: Int) {
-        radius *= zoom
+        side *= zoom
     }
 
     override fun rotate(direction: RotateDirection, centerX: Int, centerY: Int) {
@@ -31,6 +29,6 @@ class Circle(var radius: Float, var x: Int, var y: Int) : Movable, Transforming,
     }
 
     override fun toString(): String {
-        return "Circle: ($x, $y) [radius: $radius]"
+        return "Square (x: $x, y: $y) [side: $side]"
     }
 }

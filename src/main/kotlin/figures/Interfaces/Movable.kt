@@ -1,4 +1,4 @@
-package Figures.Interfaces
+package figures.Interfaces
 
 interface Movable {
     // заказ на реализацию некоторых функций

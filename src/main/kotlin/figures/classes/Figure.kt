@@ -1,4 +1,4 @@
-package Figures.Classes
+package figures.classes
 
 abstract class Figure(val id: Int) {
     abstract fun area(): Float

@@ -1,7 +1,7 @@
-import Figures.Classes.Circle
-import Figures.Classes.Rect
-import Figures.Classes.Square
-import Figures.Enums.RotateDirection
+import figures.classes.Circle
+import figures.classes.Rect
+import figures.classes.Square
+import figures.Enums.RotateDirection
 
 fun main() {
     val splitString = "-".repeat(150)
